@@ -1,6 +1,6 @@
 const exp=require('express');
 const app=exp()
-require('dotenv').config()
+require('dotenv').config();
 const mongoClient=require('mongodb').MongoClient
 //import API's routes
 const userApp=require('./APIs/user-api')
